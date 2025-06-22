@@ -4,5 +4,7 @@ if hungry=='yes':
     print('Eat Pizza')
     print('Eat burger')
 else:
-    print('Work on GenAI')
+    thirsty = input('Are you thirsty: ')
+    if thirsty == 'yes':
+        print('Drink water')
 
